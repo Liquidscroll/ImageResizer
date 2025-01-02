@@ -35,7 +35,8 @@
                         Background="Transparent"
                         BorderThickness="0"
                         Click="ColorPickerButton_Click">
-                        <SymbolIcon Symbol="Calendar"/>
+                        <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xEF3C;"/>
+                        <!--<SymbolIcon Symbol=""/>-->
                         <Button.Flyout>
                             <Flyout Placement="Bottom">
                                 <ColorPicker x:Name="CropRectangleColorPicker"

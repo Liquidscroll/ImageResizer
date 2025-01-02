@@ -148,9 +148,6 @@ namespace ImageResizer
             CropRectangle.ManipulationStarted += CropRectManipulationStarted;
             CropRectangle.ManipulationDelta += CropRectManipulationDelta;
             CropRectangle.ManipulationCompleted += CropRectManipulationCompleted;
-
-
-            CropRectangle.StrokeDashArray = new DoubleCollection { 1, 2 };
         }
         /// <summary>
         /// Handles the manipulation start event for the crop rectangle.
