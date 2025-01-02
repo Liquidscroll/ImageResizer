@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ImageResizer (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "ImageResizer (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
